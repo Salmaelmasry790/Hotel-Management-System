@@ -1,0 +1,68 @@
+/* الخلفيه */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+}
+
+/* الزراير */
+.button {
+    -fx-background-color: #3f51b5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #5c6bc0;
+}
+
+/* الكلام */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 6px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #b0bec5;
+    -fx-border-radius: 5px;
+}
+
+/* التسمية */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* الجداول */
+.table-view {
+    -fx-border-color: #cfd8dc;
+    -fx-border-radius: 6px;
+    -fx-table-cell-border-color: #eceff1;
+    -fx-padding: 5px;
+    -fx-background-radius: 6px;
+}
+
+.table-column {
+    -fx-font-size: 13px;
+}
+
+/* التابس */
+.tab-pane .tab-header-area {
+    -fx-background-color: #3949ab;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #c5cae9;
+    -fx-text-base-color: black;
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #7986cb;
+}
+
+/*الايرور */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
